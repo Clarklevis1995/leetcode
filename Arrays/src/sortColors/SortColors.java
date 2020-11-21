@@ -1,6 +1,7 @@
 package sortColors;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 public class SortColors {
     public static void main(String[] args) {
@@ -50,7 +51,6 @@ public class SortColors {
                 nums[p0] = temp;
                 p0++;
             }
-
         }
     }
 }
