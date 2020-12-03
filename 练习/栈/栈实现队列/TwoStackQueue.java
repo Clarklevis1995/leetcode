@@ -1,4 +1,4 @@
-package 练习.栈实现队列;
+package 练习.栈.栈实现队列;
 
 import java.util.Stack;
 
