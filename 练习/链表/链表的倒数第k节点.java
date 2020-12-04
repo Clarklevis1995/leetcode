@@ -1,4 +1,6 @@
-package 练习;
+package 练习.链表;
+
+import 练习.链表.ListNode;
 
 public class 链表的倒数第k节点 {
     public static void main(String[] args) {
