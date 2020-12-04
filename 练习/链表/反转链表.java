@@ -1,4 +1,4 @@
-package 练习;
+package 练习.链表;
 
 public class 反转链表 {
     public static void main(String[] args) {
