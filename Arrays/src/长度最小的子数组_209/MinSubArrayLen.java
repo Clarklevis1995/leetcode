@@ -7,6 +7,7 @@ public class MinSubArrayLen {
 
     }
 
+    //滑动窗口类问题
     public static int minSubArrayLen(int s, int[] nums){
         if (nums.length==0){
             return 0;
@@ -16,7 +17,7 @@ public class MinSubArrayLen {
         int sum = 0;
         int count = Integer.MAX_VALUE;
         while(end<nums.length){
-            sum = sum+=nums[end];
+            sum+=nums[end];
             while(sum>=s){
                 count = Math.min(count,end-start+1);
                 sum = sum-nums[start];
