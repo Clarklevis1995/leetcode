@@ -1,7 +1,6 @@
 package 反转字符串中的元音字母_345;
 
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 /**
  * @program: leetcode
@@ -12,7 +11,16 @@ import java.util.List;
 public class ReverseVowels {
     public static void main(String[] args) {
         String s = "leetcode";
-        System.out.println(reverseVowels(s));
+        //System.out.println(reverseVowels(s));
+        PriorityQueue<Integer> queue = new PriorityQueue<>((a,b)->(b-a));
+        queue.add(1);
+        queue.add(2);
+        queue.add(3);
+        queue.add(4);
+        queue.add(5);
+        System.out.println(queue.peek());
+        ArrayList<Integer> list = new ArrayList<>();
+        LinkedList<Integer> list1= new LinkedList<>();
 
     }
 

@@ -34,6 +34,7 @@ public class 反转链表 {
         return pre;
     }
 
+
 }
 class ListNode{
     int value;
